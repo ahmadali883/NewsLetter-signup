@@ -19,11 +19,11 @@ const client = require("@mailchimp/mailchimp_marketing");
 const https = require('https');
 
 // Replace with your Mailchimp API key and server prefix (the part before ".api.mailchimp.com")
-const apiKey = '<API Key>';
+const apiKey = 'Your API Key';
 const serverPrefix = 'us17'; // e.g., 'us1'
 
 // Replace with your audience/list ID
-const listId = '<listID>';
+const listId = 'yourList ID';
 
 // Function to add a member to the Mailchimp list
 function addMemberToList(email, firstName, lastName, responce) {
@@ -83,3 +83,9 @@ app.listen(process.env.PORT || 3000,()=>{
 console.log("server is runnig on part 3000");
 });
 
+//api
+// cc90d42287206767cb8749df63439eb0-us17
+
+
+//Audience list id
+//4c564ac62f
